@@ -1,0 +1,1 @@
+Add cover.jpg, childhood-01.jpg ... childhood-05.jpg, family-01.jpg, relatives-01.jpg, friends-01.jpg here. See README.md for setup.

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4eee3" />
+  <meta name="description" content="A little scrapbook of Irram Fatima's first 21 beautiful years." />
+  <title>Irram Fatima — Chapter 21</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <nav class="topbar">
+    <a class="brand" href="#home">IF <span>✳</span></a>
+    <div class="navlinks">
+      <a href="#memories">Memories</a><a href="#family">Our people</a><a href="#wishes">Wishes</a><a href="#timeline">Her journey</a>
+    </div>
+    <button class="music-toggle" id="musicToggle" aria-label="Play background music"><span class="music-icon">♫</span><span id="musicLabel">Play music</span></button>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-stamp">A KEEPSAKE OF HER FIRST 21 YEARS</div>
+      <div class="hero-copy">
+        <p class="eyebrow">A very special day • A very special soul</p>
+        <h1>Twenty-one years<br>of <em>beautiful</em> little things.</h1>
+        <p class="hero-name">Irram Fatima</p>
+        <p class="hero-sub">A life filled with laughter, little adventures, familiar faces<br class="desktop-only"> and memories worth keeping forever.</p>
+        <a class="primary-btn" href="#memories">Open the scrapbook <span>↗</span></a>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="tape tape-one"></div>
+        <div class="hero-photo photo-fill" data-photo="cover" role="img" aria-label="Irram in her birthday outfit">
+        </div>
+        <div class="photo-caption">the girl of the day <span>♡</span></div>
+        <div class="round-seal">CHAPTER<br><b>21</b></div>
+      </div>
+      <div class="hero-doodle doodle-star">✳</div><div class="hero-doodle doodle-flower">✿</div>
+      <div class="scroll-note">SCROLL TO WANDER <span>↓</span></div>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="section-kicker">01 / A NOTE TO BEGIN</div>
+      <div class="intro-grid">
+        <h2>Some stories are<br>too lovely to fit<br><em>inside a frame.</em></h2>
+        <div class="intro-note">
+          <span class="handwritten">Dear Irram,</span>
+          <p>Here are twenty-one years of tiny moments, big milestones, familiar hugs and happy chaos. A little collection of the people and places that make your story yours.</p>
+          <p class="note-sign">Made with love, by your favourite people. <span>♡</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memories section-pad" id="memories">
+      <div class="section-heading">
+        <div><div class="section-kicker">02 / THE PHOTO ALBUM</div><h2>Little moments,<br><em>forever memories.</em></h2></div>
+        <p>From tiny beginnings to the person you are today — every picture holds a little piece of the story.</p>
+      </div>
+      <div class="carousel-shell">
+        <button class="carousel-arrow prev" data-carousel="childhood" aria-label="Previous photos">←</button>
+        <div class="carousel-track" id="childhoodTrack">
+          <button class="memory-card tilt-left" data-lightbox="assets/photos/childhood-01.jpg"><span class="memory-photo photo-fill childhood-one" data-photo="childhood-01"></span><span class="memory-meta"><small>THE EARLY DAYS</small><b>Little beginnings</b></span></button>
+          <button class="memory-card tilt-right" data-lightbox="assets/photos/childhood-02.jpg"><span class="memory-photo photo-fill childhood-two" data-photo="childhood-02"></span><span class="memory-meta"><small>GROWING UP</small><b>Little miss sunshine</b></span></button>
+          <button class="memory-card tilt-left" data-lightbox="assets/photos/childhood-03.jpg"><span class="memory-photo photo-fill childhood-three" data-photo="childhood-03"></span><span class="memory-meta"><small>THE FUN YEARS</small><b>All smiles, always</b></span></button>
+          <button class="memory-card tilt-right" data-lightbox="assets/photos/childhood-05.jpg"><span class="memory-photo photo-fill childhood-five" data-photo="childhood-04"></span><span class="memory-meta"><small>FAMILY DAYS</small><b>Surrounded by love</b></span></button>
+          <button class="memory-card tilt-left" data-lightbox="assets/photos/childhood-04.jpg"><span class="memory-photo photo-fill childhood-four" data-photo="childhood-05"></span><span class="memory-meta"><small>NEW CHAPTERS</small><b>And so it begins</b></span></button>
+          <button class="memory-card tilt-right" data-lightbox="assets/photos/childhood-06.jpg"><span class="memory-photo photo-fill childhood-six" data-photo="childhood-06"></span><span class="memory-meta"><small>THE GOOD LIFE</small><b>Made for memories</b></span></button>
+          <button class="memory-card tilt-left" data-lightbox="assets/photos/childhood-07.jpg"><span class="memory-photo photo-fill childhood-seven" data-photo="childhood-07"></span><span class="memory-meta"><small>HER MOMENT</small><b>Beautifully you</b></span></button>
+        </div>
+        <button class="carousel-arrow next" data-carousel="childhood" aria-label="Next photos">→</button>
+      </div>
+      <div class="carousel-footer"><span>SWIPE OR USE THE ARROWS</span><span class="carousel-progress"><i id="carouselProgress"></i></span><span>01 — 07</span></div>
+    </section>
+
+    <section class="family section-pad" id="family">
+      <div class="section-kicker">03 / HER PEOPLE, HER HEART</div>
+      <div class="section-heading family-heading"><h2>Life is sweeter<br><em>together.</em></h2><p>The faces behind the stories, the hugs that feel like home, and the people who have been cheering her on all along.</p></div>
+      <div class="family-grid">
+        <button class="family-tile large" data-lightbox="assets/photos/family-album.jpg"><span class="family-img family-photo-album" data-photo="family-album"></span><span class="tile-label">THE FAMILY ALBUM <b>♡</b></span></button>
+        <div class="family-tile family-gatherings">
+          <div class="family-gallery">
+            <span class="family-gallery-photo gathering-one" data-lightbox="assets/photos/gathering-01.jpg" role="button" tabindex="0" aria-label="Open family gathering photo 1"></span>
+            <span class="family-gallery-photo gathering-two" data-lightbox="assets/photos/gathering-02.jpg" role="button" tabindex="0" aria-label="Open family gathering photo 2"></span>
+            <span class="family-gallery-photo gathering-three" data-lightbox="assets/photos/gathering-03.jpg" role="button" tabindex="0" aria-label="Open family gathering photo 3"></span>
+            <span class="family-gallery-photo gathering-four" data-lightbox="assets/photos/gathering-05.jpg" role="button" tabindex="0" aria-label="Open family gathering photo 4"></span>
+          </div>
+          <span class="tile-label">FAMILY GATHERINGS <b>✳</b></span>
+        </div>
+        <div class="family-tile family-friends">
+          <div class="family-gallery friends-gallery">
+            <span class="family-gallery-photo friends-one" data-lightbox="assets/photos/friends-01.jpg" role="button" tabindex="0" aria-label="Open friends photo 1"></span>
+            <span class="family-gallery-photo friends-two" data-lightbox="assets/photos/friends-02.jpg" role="button" tabindex="0" aria-label="Open friends photo 2"></span>
+            <span class="family-gallery-photo friends-three" data-lightbox="assets/photos/friends-03.jpg" role="button" tabindex="0" aria-label="Open friends photo 3"></span>
+          </div>
+          <span class="tile-label">THE FRIENDS WHO FEEL LIKE FAMILY <b>♡</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="audio-section section-pad" id="wishes">
+      <div class="audio-decoration">✦</div>
+      <div class="section-kicker">04 / LITTLE FILMS, BIG LOVE</div>
+      <h2>A few words from<br><em>the ones who love you most.</em></h2>
+      <p class="audio-intro">A little reel of birthday wishes, saved just for Irram.</p>
+      <div class="video-grid">
+        <article class="video-card">
+          <div class="video-frame"><video controls playsinline preload="metadata" src="assets/videos/birthday-01-web.mp4"></video><span class="video-number">01</span><span class="sound-cue">SOUND ON ♫</span></div>
+          <div class="video-card-copy"><span class="video-person">A BIRTHDAY WISH</span><h3>A message to keep</h3></div>
+        </article>
+        <article class="video-card">
+          <div class="video-frame"><video controls playsinline preload="metadata" src="assets/videos/birthday-02.mp4"></video><span class="video-number">02</span><span class="sound-cue">SOUND ON ♫</span></div>
+          <div class="video-card-copy"><span class="video-person">A BIRTHDAY WISH</span><h3>From the heart</h3></div>
+        </article>
+        <article class="video-card">
+          <div class="video-frame"><video controls playsinline preload="metadata" src="assets/videos/birthday-03.mp4"></video><span class="video-number">03</span><span class="sound-cue">SOUND ON ♫</span></div>
+          <div class="video-card-copy"><span class="video-person">A BIRTHDAY WISH</span><h3>With all our love</h3></div>
+        </article>
+        <article class="video-card">
+          <div class="video-frame"><video controls playsinline preload="metadata" src="assets/videos/birthday-04.mp4"></video><span class="video-number">04</span><span class="sound-cue">SOUND ON ♫</span></div>
+          <div class="video-card-copy"><span class="video-person">A BIRTHDAY WISH</span><h3>A little celebration</h3></div>
+        </article>
+        <article class="video-card">
+          <div class="video-frame"><video controls playsinline preload="metadata" src="assets/videos/birthday-05.mp4"></video><span class="video-number">05</span><span class="sound-cue">SOUND ON ♫</span></div>
+          <div class="video-card-copy"><span class="video-person">A BIRTHDAY WISH</span><h3>For chapter twenty-one</h3></div>
+        </article>
+        <article class="video-card">
+          <div class="video-frame"><video controls playsinline preload="metadata" src="assets/videos/birthday-06.mp4"></video><span class="video-number">06</span><span class="sound-cue">SOUND ON ♫</span></div>
+          <div class="video-card-copy"><span class="video-person">A BIRTHDAY WISH</span><h3>One more beautiful wish</h3></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="timeline-section section-pad" id="timeline">
+      <div class="section-kicker">05 / TWENTY-ONE CHAPTERS</div>
+      <div class="section-heading"><h2>Look how far<br><em>you've come.</em></h2><p>Every year brought something new. Here are a few pages from the story so far.</p></div>
+      <div class="timeline">
+        <div class="timeline-line"></div>
+        <article class="time-item"><span class="time-year">2005</span><span class="time-dot"></span><div><small>CHAPTER ONE</small><h3>And then, there was Irram.</h3><p>The beginning of a story that would fill so many hearts.</p></div></article>
+        <article class="time-item right"><span class="time-year">2010</span><span class="time-dot"></span><div><small>THE LITTLE ADVENTURER</small><h3>Curious about everything.</h3><p>New discoveries, big questions and the brightest little smile.</p></div></article>
+        <article class="time-item"><span class="time-year">2015</span><span class="time-dot"></span><div><small>GROWING & GLOWING</small><h3>Finding her own sparkle.</h3><p>New friendships, favourite things and memories in the making.</p></div></article>
+        <article class="time-item right"><span class="time-year">2020</span><span class="time-dot"></span><div><small>NEW HORIZONS</small><h3>Braver with every step.</h3><p>Learning, changing and becoming more wonderfully herself.</p></div></article>
+        <article class="time-item"><span class="time-year">2026</span><span class="time-dot"></span><div><small>CHAPTER TWENTY-ONE</small><h3>A whole new world ahead.</h3><p>Twenty-one years loved, celebrated and just getting started.</p></div></article>
+      </div>
+    </section>
+
+    <section class="wishes-section section-pad">
+      <div class="section-kicker">06 / LITTLE NOTES, BIG LOVE</div>
+      <div class="section-heading"><h2>Open when you need<br><em>a little reminder.</em></h2><p>Tap a note to unfold a birthday wish.</p></div>
+      <div class="envelope-grid">
+        <button class="envelope" data-message="May your days be full of reasons to smile, people who make you feel at home, and dreams that keep getting bigger. Happy 21st, Irram!"><span class="envelope-icon">✉</span><b>A wish for your next chapter</b><small>CLICK TO OPEN</small></button>
+        <button class="envelope" data-message="May you always see in yourself the kindness, strength and light that the people around you see. Keep being beautifully you."><span class="envelope-icon">✿</span><b>A little reminder</b><small>CLICK TO OPEN</small></button>
+        <button class="envelope" data-message="From the little girl in those childhood photographs to the wonderful young woman you are today, every chapter has been special in its own way. You've grown, learned, dreamed, achieved and brought happiness into the lives of so many people around you. As you step into 21, may life surprise you with beautiful opportunities, genuine friendships, endless happiness and countless reasons to smile. May you always have the courage to chase your dreams, the strength to overcome every challenge and the wisdom to appreciate even the smallest joys. Happy Birthday Irramu!"><span class="envelope-icon">☆</span><b>A note for the future</b><small>CLICK TO OPEN</small></button>
+      </div>
+      <div class="revealed-message" id="revealedMessage" aria-live="polite"><span>♡</span><p>Choose a little note above to reveal its message.</p></div>
+    </section>
+
+    <section class="finale section-pad">
+      <div class="finale-spark">✳</div><div class="section-kicker">07 / THE NEXT BEAUTIFUL CHAPTER</div>
+      <div class="cake" aria-label="Birthday cake with twenty-one candles"><div class="candles"><i></i><i></i><i></i><i></i><i></i></div><div class="cake-top"></div><div class="cake-mid"></div><div class="cake-bottom"></div><div class="cake-plate"></div></div>
+      <p class="finale-overline">MAKE A WISH, IRRAM</p>
+      <h2>Happy 21st<br><em>Birthday!</em></h2>
+      <p class="finale-copy">May this chapter be full of beautiful beginnings, unforgettable days and all the happiness your heart can hold.</p>
+      <div class="finale-sign">With all our love <span>♡</span></div>
+      <button class="confetti-btn" id="celebrateBtn">A little more celebration ✨</button>
+      <p class="footer-note">MADE TO KEEP, MADE TO REMEMBER · IRRAM FATIMA · 21</p>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" aria-label="Close photo">×</button><img src="" alt="Memory enlarged"><p>One for the keepsake box ♡</p></div>
+  <div class="toast" id="toast" role="status"></div>
+  <audio id="backgroundMusic" src="assets/audio/background-music.mp3" loop preload="none"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
